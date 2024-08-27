@@ -1,0 +1,36 @@
+{
+    "name": "alloys9/paystack_rahisi",
+    "type": "library",
+    "description": "A simple PHP library for Paystack API",
+    "require": {
+        "php": ">=8.0"
+    },
+    "license": "MIT",
+    "keywords": [
+        "paystack",
+        "paystack api",
+        "paystack php"
+    ],
+    "autoload": {
+        "psr-4": {
+            "Alloys9\\PaystackRahisi\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Alloys Amasakha",
+            "email": "eutopiatech@gmail.com",
+            "homepage": "https://www.alloysamasakha.com/",
+            "role": "Developer"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Alloys9\\PaystackRahisi\\PaystackServiceProvider"
+            ]
+        }
+    }
+}
