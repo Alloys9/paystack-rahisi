@@ -154,23 +154,22 @@
 </head>
 
 <body>
+    <!-- Session Message Display -->
+    @if (session('success'))
+        <div class="alert alert-success">
+            {{ session('success') }}
+        </div>
+    @elseif(session('error'))
+        <div class="alert alert-error">
+            {{ session('error') }}
+        </div>
+    @endif
 
     <div class="payment-container">
         <div class="branding">
             <h1>service by <a href="https://www.alloysamasakha.com/" target="_blank">EutopiaTech</a></h1>
             <p>All programming Solutions</p>
         </div>
-
-        <!-- Session Message Display -->
-        @if (session('success'))
-            <div class="alert alert-success">
-                {{ session('success') }}
-            </div>
-        @elseif(session('error'))
-            <div class="alert alert-error">
-                {{ session('error') }}
-            </div>
-        @endif
 
         <form id="paymentForm" class="payment-form">
             <div class="input-group">
@@ -186,7 +185,7 @@
     </div>
 
     <footer class="footer">
-        <p>&copy; 2024 Company Name. All rights reserved.</p>
+        <p>&copy; 2024 EutopiaTech. All rights reserved.</p>
         <p>Contact us at: <a href="mailto:eutopiatech@gmail.com">eutopiatech@gmail.com</a></p>
     </footer>
 
