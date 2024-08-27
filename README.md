@@ -39,7 +39,11 @@ Run the following command to migrate the necessary database tables:
 ```bash
 php artisan migrate
 ```
-
+### Step 4: Add the following to your .env file to save the variables
+```bash
+PAYSTACK_PUBLIC_KEY=
+PAYSTACK_SECRET_KEY=
+```
 Then you are done! That simple!
 ### If an error occurs run
 ```bash
