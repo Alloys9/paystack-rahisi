@@ -28,11 +28,11 @@ php artisan paystack-rahisi:install
 ```
 This command will:
 
-Copy controllers to app/Http/Controllers
-Copy migrations to database/migrations
-Copy models to app/Models
-Copy views to resources/views
-Append necessary routes to routes/web.php
+- Copy controllers to app/Http/Controllers
+- Copy migrations to database/migrations
+- Copy models to app/Models
+- Copy views to resources/views
+- Append necessary routes to routes/web.php
 
 ### Step 3: Migrate the database
 Run the following command to migrate the necessary database tables:
