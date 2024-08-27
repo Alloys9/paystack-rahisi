@@ -3,7 +3,7 @@
 namespace Alloys9\PaystackRahisi;
 
 use Illuminate\Support\ServiceProvider;
-use Alloys9\MpesaRahisi\Console\Commands\InstallPaystackRahisiPackage;
+use Alloys9\PaystackRahisi\Console\Commands\InstallPaystackRahisiPackage;
 
 class PaystackServiceProvider extends ServiceProvider
 {
